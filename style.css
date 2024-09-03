@@ -16,5 +16,19 @@ h1{
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url();
+    background-image: url("Imagens/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho {
+    background-color: var(#ffffff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__imagem{
+    width: 240px;
+    height: 240px;
 }
